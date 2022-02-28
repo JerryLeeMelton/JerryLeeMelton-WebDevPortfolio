@@ -9,7 +9,7 @@ function ptsGraphics() {
   space = new CanvasSpace("#pts-canvas");
 
   space.setup({
-    bgcolor: "#FFFFFF",
+    bgcolor: "#00FF85",
     autoResize: true
   });
 
