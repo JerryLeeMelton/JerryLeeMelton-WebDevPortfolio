@@ -11,13 +11,13 @@ a {
   text-decoration: none;
 }
 
-#intro {
+#intro-seciton {
   width: 100vw;
   height: 100vh;
   position: relative;
 }
 
-#intro h1 {
+#intro-seciton h1 {
   font-family: "JosefinSans", sans-serif;
   font-weight: 400;
   font-size: 3rem;
