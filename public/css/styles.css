@@ -16,6 +16,14 @@ h1 {
 
 }
 
+.overflow-wrap {
+  overflow-x: hidden;
+}
+
+.x-offset {
+  padding: 0 18px 0 0;
+}
+
 #intro-seciton {
   width: 100vw;
   height: 100vh;
