@@ -1,0 +1,66 @@
+/* Font Imports ============================================================= */
+
+/* Josefin Sans */
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Lato */
+@font-face {
+  font-family: "Lato";
+  src: url("/fonts/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato-Italic";
+  src: url("/fonts/Lato-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("/fonts/Lato-Bold.ttf") format("truetype");
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url("/fonts/Lato-Black.ttf") format("truetype");
+  font-style: bold;
+  font-weight: 900;
+}

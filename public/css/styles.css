@@ -13,8 +13,14 @@ a {
 
 #intro {
   width: 100vw;
-  height: 10rem;
+  height: 100vh;
   position: relative;
+}
+
+#intro h1 {
+  font-family: "JosefinSans", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
 }
 
 #pts-canvas {

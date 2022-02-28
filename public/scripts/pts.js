@@ -1,11 +1,15 @@
 var space;
 
+function clampNum(num, min, max) {
+  return Math.min(Math.max(min, num), max);
+}
+
 function ptsGraphics() {
 
   space = new CanvasSpace("#pts-canvas");
 
   space.setup({
-    bgcolor: "#FF00FB",
+    bgcolor: "#FFFFFF",
     autoResize: true
   });
 
@@ -33,7 +37,10 @@ function ptsGraphics() {
       let color = (p) => {
         let p1 = p.$divide(space.size);
         let p2 = space.pointer.$divide(space.size);
-        let c1 = cu.$multiply(Pt.make(4, 1).to(p2.x, p1.x - 0.5, p1.y - 0.5));
+        let c1 = cu.$multiply(Pt.make(4, 1).to(1, p1.x - 0.5, p1.y - 0.5));
+        c1.l = clampNum(c1.l, 90, 100);
+        // c1.a = clampNum(c1.a, 40, 60);
+        c1.b = clampNum(c1.b, -50, -50);
         return Color.LABtoRGB(c1).toString("rgb");
       }
 
