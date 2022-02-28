@@ -1,0 +1,37 @@
+body {
+  background-color: blue;
+  padding: 0;
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+#intro {
+  width: 100vw;
+  height: 10rem;
+  position: relative;
+}
+
+#pts-canvas {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-content {
+  z-index: 1;
+}
