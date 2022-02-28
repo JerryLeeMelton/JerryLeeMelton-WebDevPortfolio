@@ -5,7 +5,8 @@ function ptsGraphics() {
   space = new CanvasSpace("#pts-canvas");
 
   space.setup({
-    bgcolor: "#FF00FB"
+    bgcolor: "#FF00FB",
+    autoResize: true
   });
 
   var form = space.getForm(space);
@@ -56,6 +57,6 @@ ptsGraphics();
 
 $(window).resize(function(){
   space.removeAll();
-  $('#pts-canvas').remove();
+  $('canvas').remove();
   ptsGraphics();
 });
