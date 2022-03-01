@@ -12,15 +12,28 @@ a {
   text-decoration: none;
 }
 
-h1 {
+p {
+  font-family: "Lato", sans-serif;
+}
 
+h1 {
+  font-size: 2.25rem;
 }
 
 hr {
   height: 3px;
   width: 5rem;
-  background-color: red;
+  background-color: #DCDCDC;
   border-style: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section-wrapper {
+  width: 100%;
+  padding-bottom: 4rem;
 }
 
 .overflow-wrap {
@@ -33,6 +46,11 @@ hr {
 
 .center-text {
   text-align: center;
+}
+
+.section-header {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 #intro-seciton {
@@ -106,6 +124,27 @@ hr {
   transition: 0.3s;
 }
 
+/* About Seciton ============================================================ */
+.about-main {
+  display: flex;
+}
+
+.about-text {
+  font-size: 1.25rem;
+  max-width: 500px;
+  margin: auto;
+  line-height: 1.75;
+}
+
+/* Portfolio Section ======================================================== */
+#portfolio-section {
+  background-color: #DCDCDC;
+}
+
+#portfolio-section hr {
+  background-color: #FFFFFF;
+}
+
 /* Contact Form ============================================================= */
 
 .contact-form-wrapper {
@@ -150,9 +189,7 @@ hr {
   transition: 0.3s;
 }
 
-.section-wrapper {
-  width: 100%;
-}
+
 
 .content-wrapper {
   margin: auto;
@@ -161,6 +198,19 @@ hr {
   min-width: 100px;   /* CHANGE ME  ===================================*/
 }
 
+
+/* Footer Section =========================================================== */
+#footer-section {
+  background-color: #565656;
+  height: 6rem;
+
+  /* color: #5D5D5D; */
+  color: #FFFFFF;
+}
+
+#footer-text {
+  margin: auto;
+}
 
 /* Colors
 
