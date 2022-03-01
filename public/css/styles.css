@@ -136,6 +136,10 @@ ul {
   line-height: 1.75;
 }
 
+.checkbox-icon {
+
+}
+
 /* Portfolio Section ======================================================== */
 #portfolio-section {
   background-color: #DCDCDC;
@@ -195,7 +199,7 @@ ul {
   margin: auto;
   width: 80%;
   max-width: 1200px;
-  min-width: 100px;   /* CHANGE ME  ===================================*/
+  min-width: 100px;   /* CHANGE ME  ======================================================================*/
 }
 
 
