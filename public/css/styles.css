@@ -16,12 +16,23 @@ h1 {
 
 }
 
+hr {
+  height: 3px;
+  width: 5rem;
+  background-color: red;
+  border-style: none;
+}
+
 .overflow-wrap {
   overflow-x: hidden;
 }
 
 .x-offset {
   padding: 0 18px 0 0;
+}
+
+.center-text {
+  text-align: center;
 }
 
 #intro-seciton {
@@ -84,6 +95,7 @@ h1 {
 
   transition: 0.3s;
 
+  cursor: pointer;
 }
 
 .intro-button:hover {
@@ -94,7 +106,36 @@ h1 {
   transition: 0.3s;
 }
 
+/* Contact Form ============================================================= */
+
+.contact-form-wrapper {
+  width: 30rem;
+  margin:auto;
+}
+
+.contact-label {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+}
+
+.contact-text-field {
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 2.4rem;
+}
+
+.contact-text-area {
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
 .contact-form-button {
+  margin: 0;
+
   color: #000000;
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 1);
@@ -110,12 +151,14 @@ h1 {
 }
 
 .section-wrapper {
-  align
+  width: 100%;
 }
 
 .content-wrapper {
   margin: auto;
   width: 80%;
+  max-width: 1200px;
+  min-width: 100px;   /* CHANGE ME  ===================================*/
 }
 
 
