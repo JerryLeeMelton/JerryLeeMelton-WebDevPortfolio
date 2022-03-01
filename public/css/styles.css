@@ -92,7 +92,12 @@ ul {
 
 .intro-content {
   z-index: 1;
+}
 
+.intro-button-link {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
 }
 
 .button {
@@ -104,16 +109,20 @@ ul {
   border: 2px solid #000000;
   padding: 0;
 
-  width: 13rem;
-  height: 3.5rem;
+  margin:auto;
 
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-top: 2rem;
+  overflow: hidden;
+
+  width: 15rem;
+  height: 3.5rem;
 
   transition: 0.3s;
 
   cursor: pointer;
+}
+
+.smooth-scroll-button {
+
 }
 
 .intro-button:hover {
@@ -136,8 +145,24 @@ ul {
   line-height: 1.75;
 }
 
+.about-portrait-wrapper {
+  margin: auto;
+}
+
+.about-portrait {
+
+}
+
 .checkbox-icon {
 
+}
+
+.about-button:hover {
+  color: #FFFFFF;
+  background-color: rgba(0, 186, 186, 1);
+  border-color: rgba(0, 186, 186, 1);
+
+  transition: 0.3s;
 }
 
 /* Portfolio Section ======================================================== */
