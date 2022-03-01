@@ -45,6 +45,10 @@ h1 {
   top: 0;
 }
 
+#about-section {
+  scroll-behavior: smooth;
+}
+
 .flex {
   align-items: center;
   display: flex;
@@ -54,4 +58,39 @@ h1 {
 
 .intro-content {
   z-index: 1;
+
 }
+
+.intro-button {
+  font-family: "Lato-Bold", sans-serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #000000;
+  padding: 0;
+
+  width: 13rem;
+  height: 3.5rem;
+
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+
+  transition: 0.3s;
+}
+
+.intro-button:hover {
+  color: #00ffd6;
+  background-color: rgba(255, 127, 0, 1);
+  border-color: rgba(255, 127, 0, 1);
+
+  transition: 0.3s;
+}
+
+/* Colors
+
+Intro Blue: #00FFFF
+Intro Green: #00FF85
+Intro Button Hover: #00ffd6
+Intro Button: #FF7F00 */
