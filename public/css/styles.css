@@ -20,6 +20,10 @@ h1 {
   font-size: 2.25rem;
 }
 
+h2 {
+  font-size: 1.8rem;
+}
+
 hr {
   height: 3px;
   width: 5rem;
@@ -33,7 +37,7 @@ ul {
 
 .section-wrapper {
   width: 100%;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 }
 
 .overflow-wrap {
@@ -153,10 +157,6 @@ ul {
 
 }
 
-.checkbox-icon {
-
-}
-
 .about-button:hover {
   color: #FFFFFF;
   background-color: rgba(0, 186, 186, 1);
@@ -165,32 +165,37 @@ ul {
   transition: 0.3s;
 }
 
-.skills-list > li {
-  flex-basis: 50%;
-}
-
-.skills-list {
+.skills-list-wrapper {
   display: flex;
   flex-wrap: wrap;
   white-space: nowrap;
 
-  font-family: "Lato-Bold", sans-serif;
-  font-weight: 900;
-  font-size: 1.2rem;
-
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-top: 4rem;
-
-  min-width: 580px;
+  justify-content: center;
 }
 
-.skills-inner-div {
-  max-width: 200px;
+.skills-list-item {
+  flex-basis: 30%;
+  margin: 0.2rem;
+}
+
+.skills-list-inner-div {
+  flex-basis: 30%;
+
+  min-width: 190px;
+  max-width: 230px;
   background-color: #00BABA;
   color: #FFFFFF;
+
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin: 0.5rem auto 0.5rem auto;
+}
+
+.checkbox-icon {
+  margin: 0 1rem 0 0;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 /* Portfolio Section ======================================================== */
@@ -275,14 +280,12 @@ ul {
   padding: 0.25rem 1rem 0.25rem 1rem;
 }
 
-
 .content-wrapper {
   margin: auto;
   width: 80%;
   max-width: 1200px;
   min-width: 100px;   /* CHANGE ME  ======================================================================*/
 }
-
 
 /* Footer Section =========================================================== */
 #footer-section {
