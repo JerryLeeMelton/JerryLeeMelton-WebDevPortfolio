@@ -49,6 +49,11 @@ h1 {
   scroll-behavior: smooth;
 }
 
+.intro-heading-bold {
+  font-family: "JosefinSans-Bold", sans-serif;
+  font-weight: 700;
+}
+
 .flex {
   align-items: center;
   display: flex;
@@ -87,6 +92,16 @@ h1 {
 
   transition: 0.3s;
 }
+
+.section-wrapper {
+  align
+}
+
+.content-wrapper {
+  margin: auto;
+  width: 80%;
+}
+
 
 /* Colors
 
