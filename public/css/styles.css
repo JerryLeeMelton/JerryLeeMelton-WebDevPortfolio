@@ -114,6 +114,8 @@ ul {
   top: 0;
 }
 
+
+
 .intro-heading-bold {
   font-family: "JosefinSans-Bold", sans-serif;
   font-weight: 700;
@@ -129,10 +131,6 @@ ul {
     margin-top: 2rem;
 }
 
-.smooth-scroll-button {
-
-}
-
 .intro-button:hover {
   color: #00ffd6;
   background-color: rgba(255, 127, 0, 1);
@@ -140,6 +138,23 @@ ul {
 
   transition: 0.3s;
 }
+
+@media (max-width: 745px) {
+  #intro-seciton h1 {
+    font-size: calc(6.25vw);
+  }
+
+  .intro-content a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  #intro-buttons-div {
+    margin-top: 2rem;
+  }
+}
+
 
 /* About Seciton ============================================================ */
 #about-section {
