@@ -1,3 +1,5 @@
+.env
+
 *.BridgeSort
 
 node_modules/
