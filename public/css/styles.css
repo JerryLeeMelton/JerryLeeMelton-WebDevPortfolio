@@ -91,6 +91,11 @@ ul {
   cursor: pointer;
 }
 
+.font-awesome-icon {
+  margin-left: 0.75rem;;
+}
+
+
 /* Intro Section ============================================================ */
 
 #intro-seciton {
@@ -113,8 +118,6 @@ ul {
   left: 0;
   top: 0;
 }
-
-
 
 .intro-heading-bold {
   font-family: "JosefinSans-Bold", sans-serif;
@@ -312,7 +315,8 @@ ul {
 
 .contact-form-button:hover {
   color: #FFFFFF;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 186, 186, 1);
+  border-color: rgba(0, 186, 186, 1);
 
   transition: 0.3s;
 }
@@ -461,6 +465,16 @@ ul {
 
   transition: 0.5s;
 }
+
+.modal-links-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-links-wrapper a {
+  margin: auto;
+}
+
 
 
 
