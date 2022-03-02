@@ -145,16 +145,17 @@ ul {
 .about-text {
   font-size: 1.25rem;
   max-width: 500px;
+  min-width: 500px;
   margin: auto;
   line-height: 1.75;
 }
-
+3
 .about-portrait-wrapper {
   margin: auto;
 }
 
 .about-portrait {
-
+  margin-right: 2rem;
 }
 
 .about-button:hover {
