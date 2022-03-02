@@ -163,6 +163,8 @@ ul {
 
 .about-main {
   display: flex;
+
+  flex-wrap: wrap;
 }
 
 .about-text {
@@ -172,7 +174,7 @@ ul {
   margin: auto;
   line-height: 1.75;
 }
-3
+
 .about-portrait-wrapper {
   margin: auto;
 }
@@ -215,7 +217,33 @@ ul {
 }
 
 .checkbox-icon {
-  margin: 0 1rem 0 0;
+  margin: 0 0.5rem 0 0;
+}
+
+@media (max-width: 588px) {
+  .skills-list-inner-div {
+    min-width: 150px;
+
+  }
+
+  .about-text {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 555px) {
+  .about-main {
+    justify-content: center;
+  }
+
+  .about-portrait {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-text {
+    min-width: 0;
+  }
 }
 
 /* Portfolio Section ======================================================== */
