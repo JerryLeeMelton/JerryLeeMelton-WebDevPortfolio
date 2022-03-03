@@ -36,7 +36,7 @@ ul {
   list-style-type: none;
 }
 
-/* General Purpose ========================================================== */
+/* General ================================================================== */
 .section-wrapper {
   width: 100%;
   padding-bottom: 6rem;
@@ -256,6 +256,11 @@ ul {
 
 #portfolio-section hr {
   background-color: #FFFFFF;
+}
+
+.portfolio-thumbs-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 /* Contact Form ============================================================= */
