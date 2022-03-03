@@ -338,11 +338,20 @@ ul {
   padding: 0.25rem 1rem 0.25rem 1rem;
 }
 
+.contact-form-wrapper label {
+  display:block;
+}
 .content-wrapper {
   margin: auto;
   width: 80%;
   max-width: 1200px;
-  min-width: 100px;   /* CHANGE ME  ======================================================================*/
+}
+
+@media (max-width: 600px) {
+  .contact-form-wrapper input,
+  .contact-form-wrapper textarea {
+    width: 90%;
+  }
 }
 
 /* Footer Section =========================================================== */
