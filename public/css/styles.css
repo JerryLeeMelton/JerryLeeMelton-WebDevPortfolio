@@ -3,9 +3,7 @@ body {
   background-color: #FFFFFF;
   padding: 0;
   margin: 0;
-
   font-family: "Lato", sans-serif;
-
   -webkit-font-smoothing: antialiased;
 }
 
@@ -74,30 +72,23 @@ ul {
   font-family: "Lato-Bold", sans-serif;
   font-weight: 900;
   font-size: 1.25rem;
-
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid #000000;
   padding: 0;
-
-  margin:auto;
-
+  margin: auto;
   overflow: hidden;
-
   width: 15rem;
   height: 3.5rem;
-
   transition: 0.3s;
-
   cursor: pointer;
 }
 
 .font-awesome-icon {
-  margin-left: 0.75rem;;
+  margin-left: 0.75rem;
+  ;
 }
 
-
 /* Intro Section ============================================================ */
-
 #intro-seciton {
   width: 100vw;
   height: 100vh;
@@ -129,16 +120,15 @@ ul {
 }
 
 .intro-button-link {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
 }
 
 .intro-button:hover {
   color: #00ffd6;
   background-color: rgba(255, 127, 0, 1);
   border-color: rgba(255, 127, 0, 1);
-
   transition: 0.3s;
 }
 
@@ -158,7 +148,6 @@ ul {
   }
 }
 
-
 /* About Seciton ============================================================ */
 #about-section {
   scroll-behavior: smooth;
@@ -166,7 +155,6 @@ ul {
 
 .about-main {
   display: flex;
-
   flex-wrap: wrap;
 }
 
@@ -190,7 +178,6 @@ ul {
   color: #FFFFFF;
   background-color: rgba(0, 186, 186, 1);
   border-color: rgba(0, 186, 186, 1);
-
   transition: 0.3s;
 }
 
@@ -198,7 +185,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   white-space: nowrap;
-
   justify-content: center;
 }
 
@@ -209,12 +195,10 @@ ul {
 
 .skills-list-inner-div {
   flex-basis: 30%;
-
   min-width: 190px;
   max-width: 230px;
   background-color: #00BABA;
   color: #FFFFFF;
-
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin: 0.5rem auto 0.5rem auto;
 }
@@ -226,7 +210,6 @@ ul {
 @media (max-width: 588px) {
   .skills-list-inner-div {
     min-width: 150px;
-
   }
 
   .about-text {
@@ -284,7 +267,7 @@ ul {
 }
 
 .contact-form-label {
-
+  display: block;
 }
 
 .contact-label {
@@ -311,11 +294,9 @@ ul {
 
 .contact-form-button {
   margin: 0;
-
   color: #000000;
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 1);
-
   transition: 0.3s;
 }
 
@@ -323,7 +304,6 @@ ul {
   color: #FFFFFF;
   background-color: rgba(0, 186, 186, 1);
   border-color: rgba(0, 186, 186, 1);
-
   transition: 0.3s;
 }
 
@@ -338,9 +318,6 @@ ul {
   padding: 0.25rem 1rem 0.25rem 1rem;
 }
 
-.contact-form-wrapper label {
-  display:block;
-}
 .content-wrapper {
   margin: auto;
   width: 80%;
@@ -348,6 +325,7 @@ ul {
 }
 
 @media (max-width: 600px) {
+
   .contact-form-wrapper input,
   .contact-form-wrapper textarea {
     width: 90%;
@@ -359,7 +337,6 @@ ul {
   background-color: #00BABA;
   color: #FFFFFF;
   height: 6rem;
-
   display: flex;
 }
 
@@ -384,18 +361,14 @@ ul {
   align-items: center;
   vertical-align: center;
   z-index: 2;
-
   visibility: hidden;
   opacity: 0;
-  /* transition: visibility 0s opacity 0.5s; */
   transition: 0.3s;
 }
 
 .modal-active {
   visibility: visible;
   opacity: 1;
-
-  /* transition: visibility 0s opacity 0.5s; */
   transition: 0.3s;
 }
 
@@ -417,14 +390,11 @@ ul {
   height: auto;
   width: 600px;
   filter: drop-shadow(0 0.5rem 0.75rem rgba(0, 0, 0, 0.25));
-
   position: relative;
   top: -2rem;
-
   display: flex;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .modal-text {
@@ -458,7 +428,6 @@ ul {
   color: #FFFFFF;
   background-color: rgba(0, 186, 186, 1);
   border-color: rgba(0, 186, 186, 1);
-
   transition: 0.3s;
 }
 
@@ -467,17 +436,13 @@ ul {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-
   font-size: 2rem;
-
   color: rgba(255, 255, 255, 0.5);
-
   transition: 0.5s;
 }
 
 .modal-close:hover {
   color: rgba(255, 255, 255, 1);
-
   transition: 0.5s;
 }
 
@@ -489,9 +454,6 @@ ul {
 .modal-links-wrapper a {
   margin: auto;
 }
-
-
-
 
 /* Colors
 Intro Blue: #00FFFF
