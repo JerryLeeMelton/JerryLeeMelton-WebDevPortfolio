@@ -244,6 +244,7 @@ ul {
 .portfolio-thumbs-wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Contact Form ============================================================= */
