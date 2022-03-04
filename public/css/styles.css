@@ -9,6 +9,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 p {
@@ -201,6 +202,12 @@ ul {
   color: #FFFFFF;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin: 0.5rem auto 0.5rem auto;
+  transition: background-color 0.5s;
+}
+
+.skills-list-inner-div:hover {
+  background-color: #00FFFF;
+  transition: background-color 0.5s;
 }
 
 .checkbox-icon {
