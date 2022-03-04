@@ -42,7 +42,7 @@ app.post("/", (req, res)=>{
   const mailOptions = {
     from: process.env.CONTACT_EMAIL,
     to: process.env.TARGET_EMAIL,
-    subject: "Message from a portfolio site visitor",
+    subject: "Message from developer portfolio site visitor (jerryleemelton.com)",
     text: messageBody
   };
 
