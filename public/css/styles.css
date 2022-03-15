@@ -445,12 +445,12 @@ ul {
   top: 1.5rem;
   right: 1.5rem;
   font-size: 2rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   transition: 0.5s;
 }
 
 .modal-close:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
   transition: 0.5s;
 }
 
