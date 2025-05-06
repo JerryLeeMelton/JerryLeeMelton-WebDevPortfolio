@@ -5,7 +5,7 @@ Welcome to my personal web development portfolio, showcasing projects, skills, a
 
 ## 🌐 Live Site
 
-Explore the live portfolio at [jerryleemelton.com](https://jerryleemelton.com)
+Explore the live portfolio (now the new React JS version) at [jerryleemelton.com](https://jerryleemelton.com)
 
 ## 🧰 Technologies Used
 
